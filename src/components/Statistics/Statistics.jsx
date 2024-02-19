@@ -21,9 +21,7 @@ export const Statistics = ({
       <p className={css.label}>
         Total:<span className={css.value}>{total}</span>
       </p>
-      <p className={css.label}>
-        Total:<span className={css.value}>{total}</span>
-      </p>
+      
       <p className={css.label}>
         Positive Feedback:
         <span className={css.value}>{positivePercentage}%</span>

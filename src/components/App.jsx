@@ -12,7 +12,7 @@ export const App = () => {
   });
 
   const countTotalFeedback = () => {
-    const { good, neutral, bad } = feedback;
+    // const { good, neutral, bad } = feedback;
     return good + neutral + bad;
   };
 
